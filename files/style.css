@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* , html , body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #0c2b40;
+}
+
+/* section -1 */
+
+
+.title-1 img{
+    width: 100px;
+    height: 100px;
+}
+.title-1{
+    font-size: 150%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 5% 10%;
+}
+.title-1 p{
+    position: relative;
+    top: 30px;
+}
+.desc-1{
+    font-size: 400%;
+    color: #1683cc;
+    width: 50%;
+    padding: 5% 10%;
+}
+.desc-1 button{
+    width: 40%;
+    height: 40px;
+    border: 1px #1683cc solid;
+    background-color: #0c2b40;
+    font-family: "Orbitron", serif;
+    color: #1683cc;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.image-1{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40%;
+    margin-right: 10%;
+}
+.image-1 img{
+    width: 40%;
+    height: 800px;
+    object-fit: cover;
+}
+
+/* section -2 */
+.section-2 {
+    position: relative;
+    margin-top: 10%;
+}
+
+.section-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/s3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.5; 
+    z-index: -1; 
+}
+
+.desc-2{
+    width: 50%;
+    flex-direction: column;
+    padding: 20% 0;
+    position: relative;
+    left: 25%;
+    text-align: center;
+}
+.desc-2 h1{
+    font-size: 400%;
+    color: #1683cc;
+}
+.desc-2 p{
+    font-size: 180%;
+    color: white;
+}
+
+/* section -3 */
+
+.title-3{
+    display: flex;
+    justify-content: center;
+    font-size: 500%;
+    color: #1683cc;
+    padding: 10% 0;
+}
+.desc-3{
+    display: flex;
+    justify-content: center;
+}
+.card-3 img{
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+}
+.card-3{
+    width: 70%;
+    text-align: center;
+}
+.card-3 h1{
+    font-size: 150%;
+    color: #1683cc;
+}
+.card-3 p{
+    font-size: 120%;
+    color: white;
+}
+/* section- 4 */
+
+.section-4{
+    background-color: #0b2231;
+    padding: 10% 0;
+    margin-top: 5%;
+}
+
+.title-4{
+    display: flex;
+    justify-content: center;
+    font-size: 500%;
+    color: #1683cc;
+}
+.desc-4{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    gap: 150px;
+}
+.card-4 img{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+.card-4{
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border:1px #1683cc solid;
+    width: 20%;
+    height: 500px;
+}
+.card-4 h1{
+    color: #1683cc;
+    font-size: 180%;
+}
+.card-4 p{
+    color: white;
+    font-size: 120%;
+}
+
+/* section- 5 */
+
+.section-5 {
+    position: relative;
+}
+
+.section-5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/s3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.5; 
+    z-index: -1; 
+}
+.desc-5{
+    padding: 20% 0;
+    font-size: 300%;
+    color: #1683cc;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    text-align: center;
+}
+
+/* section - 6*/
+
+.section-6{
+    background-color: #0b2231;
+    padding: 10% 0;
+}
+.title-6{
+    display: flex;
+    justify-content: center;
+    font-size: 400%;
+    color: #1683cc;
+}
+.desc-6{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    margin-top: 10%;
+}
+.small-card-6{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.small-card-6 h6{
+    color: #1683cc;
+    font-size: 110%;
+}
+.card-6 img{
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+}
+.card-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+.card-6 p{
+    color: white;
+    font-size: 110%;
+    line-height: 1.6;
+}
+
+/* footer */
+
+.title-foot{
+    padding: 5% 10%;
+}
+.title-foot h1{
+    font-size: 200%;
+    color: #1683cc;
+}
+.title-foot p{
+    font-size: 130%;
+    color: white;
+    margin-top: 1%;
+}
+.title-foot button{
+    width: 20%;
+    height: 40px;
+    font-family: "Orbitron", serif;
+    border: 1px #1683cc solid;
+    border-radius: 25px;
+    background-color: #0c2b40;
+    color: #1683cc;
+    font-size: 120%;
+    margin-top: 1%;
+}
+.desc-foot{
+    padding: 5% 10%;
+}
+.desc-foot h1{
+    font-size: 200%;
+    color: #1683cc;
+}
+.desc-foot P{
+    font-size: 130%;
+    color: white;
+}
+.card-foot{
+    margin-top: 3%;
+}
+.image-foot{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -35%;
+}
+.image-foot img{
+    width: 60%;
+}
