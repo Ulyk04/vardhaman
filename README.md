@@ -3,7 +3,7 @@
 **VARDHAMAN** This is a simple website about Tech solutions 
 
 ## 🚀 [View Live Website]
-https://ulyk04.github.io/nimble/
+https://ulyk04.github.io/vardhaman/
 
 ---
 
